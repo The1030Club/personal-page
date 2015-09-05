@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Couture";
+    src: url("../fonts/couture-bld.otf");
+}
+
+body {
+	background-color: #FFF;
+    font-family: "Bookman", Georgia, "Times New Roman", serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+}
+
+p {
+	font-size: 22px;
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: 400;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+	width: 100%;
+	height: 650px;
+}
+
+section {
+	margin: 15% 25%;
+}
+
+.header-title {
+    font-family: "Couture";
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.header-text {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: white;
+}
+
+.quote {
+    font-size: 24px;
+    font-family: 'Cardo', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+}
+
+#js-fadeInText {
+	display: none;
+}
+
+.bucket {
+    width: 100%;
+}
+
+.block {
+    width: 100%;
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+    float: left;
+}
+
+/*Typed Cursor*/
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation:    blink 1s infinite;
+    animation:         blink 1s infinite;
+}
+    @keyframes blink{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-webkit-keyframes blink{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-moz-keyframes blink{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+}
+
+/*End Typed Cursor*/
+
+@media (min-width: 1500px) { 
+	header {
+		height:700px;
+	}
+}
+
+@media (max-width: 1000px) { 
+	section {
+		margin: 15%;
+	}
+	header {
+		height:500px;
+	}
+    .header-title {
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 775px) { 
+	header {
+		height:300px;
+	}
+    .header-title {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 450px) { 
+	section {
+		margin: 15% 7.5%;
+	}
+	header {
+		height:200px;
+	}
+}
