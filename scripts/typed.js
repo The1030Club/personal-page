@@ -402,7 +402,7 @@
         // show cursor
         showCursor: true,
         // character for cursor
-        cursorChar: "|",
+        cursorChar: "",
         // attribute to type (null == text)
         attr: null,
         // either html or text

@@ -1,16 +1,15 @@
 @font-face {
-    font-family: "Couture";
-    src: url("../fonts/couture-bld.otf");
+    font-family: "Typewriter";
+    src: url("../fonts/TravelingTypewriter.otf")
 }
 
 body {
-	background-color: #FFF;
+	background-color: whitesmoke;
     font-family: "Bookman", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5 {
 	font-size: 40px;
-	font-family: 'Playfair Display', serif;
 	font-weight: 900;
 }
 
@@ -28,25 +27,45 @@ img {
 header {
 	width: 100%;
 	height: 650px;
+    font-family: Typewriter;
+    text-align: center;
 }
 
 section {
 	margin: 15% 25%;
 }
 
-.header-title {
-    font-family: "Couture";
-    font-size: 150px;
-    color: white;
-    text-align: center;
-    margin: auto;
+.flex-box {
+    display: flex;
 }
 
-.header-text {
+.flex-1-2 {
+    width: 50%;
+}
+
+.flex-left {
+    align-content: flex-start;
+}
+
+.header-content {
+    color: whitesmoke;
     font-size: 40px;
-    font-family: 'Playfair Display', serif;
     font-weight: 900;
-    color: white;
+    color: whitesmoke;
+}
+
+.header-left {
+    background-color: black;
+    height: 600px;
+}
+
+.header-right {
+    height: 600px;
+}
+
+.color-overlay {
+    background: black;
+    opacity: .2;
 }
 
 .quote {
@@ -54,7 +73,7 @@ section {
     font-family: 'Cardo', serif;
     font-weight: 400;
     font-style: italic;
-    color: white;
+    color: whitesmoke;
 }
 
 #js-fadeInText {
@@ -114,18 +133,12 @@ section {
 	header {
 		height:500px;
 	}
-    .header-title {
-        font-size: 120px;
-    }
 }
 
 @media (max-width: 775px) { 
 	header {
 		height:300px;
 	}
-    .header-title {
-        font-size: 70px;
-    }
 }
 
 @media (max-width: 450px) { 

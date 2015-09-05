@@ -21,6 +21,6 @@ $(function(){
             "Fourth sentence.",
             "Fifth sentence."
         ],
-        typeSpeed: 100
+        typeSpeed: 150
     });
 });
