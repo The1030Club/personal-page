@@ -1,16 +1,3 @@
-
-
-//jQuery FadeIn Module
-
-//var fadeInText = $( '#js-fadeInText' );
-//
-//// When the Document loads completely, fade in the text for 1500 ms
-//$( document ).ready(function() {
-//  fadeInText.fadeIn(4000);
-//});
-
-
-
 // Typed.js plug-in, credit and thanks to Matt Boldt!
 $(function(){
     $(".js-typing-element").typed({
@@ -24,3 +11,16 @@ $(function(){
         typeSpeed: 150
     });
 });
+
+// Owl.Carousel.js plug-in initialization function.
+$(document).ready(function() {
+    $("#owl-example").owlCarousel({
+        singleItem: true,
+        autoPlay: 3500,
+        stopOnHover: true
+    });
+
+
+});
+
+

@@ -56,11 +56,13 @@ section {
 
 .header-left {
     background-color: black;
-    height: 600px;
+    height: 500px;
+    padding: 3%;
 }
 
 .header-right {
-    height: 600px;
+    height: 500px;
+    padding: 3%;
 }
 
 .color-overlay {
@@ -73,7 +75,7 @@ section {
     font-family: 'Cardo', serif;
     font-weight: 400;
     font-style: italic;
-    color: whitesmoke;
+    color: black;
 }
 
 #js-fadeInText {
